@@ -1,0 +1,79 @@
+# Ignore all files inside trained_models
+trained_models/**
+
+# Keep folder structure
+!trained_models/**/
+!trained_models/**/.gitkeep
+
+# Ignore all files and subdirectories in datasets
+datasets/**
+
+# Keep only the root .gitkeep
+!datasets/.gitkeep
+
+
+#========================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Conda local configuration
+.condarc
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Platform-specific files
+*.DS_Store
