@@ -1,9 +1,9 @@
 # Ignore all files inside trained_models
-trained_models/**
+trained-models/**
 
 # Keep folder structure
-!trained_models/**/
-!trained_models/**/.gitkeep
+!trained-models/**/
+!trained-models/**/.gitkeep
 
 # Ignore all files and subdirectories in datasets
 datasets/**
